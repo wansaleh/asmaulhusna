@@ -1,16 +1,20 @@
 <script lang="ts">
   type Name = {
     id: string;
-    name: string;
-    arabic: string;
-    english: string;
-    description: string;
+    name_ar: string;
+    name_tr: string;
+    name_ms: string;
+    name_en: string;
+    desc_ms: string;
+    desc_en: string;
   };
 
   export let name: Name;
 </script>
 
-<div>
-  <div class="text-4xl arabic mb-4">{@html name.arabic}</div>
-  <div class="text-xl">{name.name}</div>
+<div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-6 py-10">
+  <div class="text-4xl arabic mb-4 font-semibold">{@html name.name_ar}</div>
+  <div class="text-lg font-semibold">{name.name_tr}</div>
+  <div class="text-sm font-normal italic">{name.name_ms}</div>
+  <div class="text-sm font-normal opacity-60">{name.name_en}</div>
 </div>

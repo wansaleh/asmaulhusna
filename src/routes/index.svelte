@@ -18,12 +18,16 @@
   </h1>
 
   <div class="mt-16">
-    <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-16"
-    >
+    <div class="flex flex-wrap flex-row-reverse justify-center">
       {#each names as name (name.id)}
         <Card {name} />
       {/each}
     </div>
   </div>
 </div>
+
+<style>
+  .grid {
+    direction: rtl;
+  }
+</style>
