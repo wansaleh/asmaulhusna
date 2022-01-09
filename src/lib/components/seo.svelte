@@ -4,11 +4,12 @@
   import { colorMode } from '$lib/store';
 
   const defaultMeta = {
-    title: 'SvelteKit Starter',
-    siteName: 'SvelteKit Starter',
-    description: 'SvelteKit Starter With TypeScript & Tailwind.',
-    url: 'https://sveltekit-starter-wansaleh.vercel.app',
-    image: 'https://sveltekit-starter-wansaleh.vercel.app/og.jpg',
+    title: 'Asmaul Husna | 99 Nama Allah',
+    siteName: 'Asmaul Husna | 99 Nama Allah',
+    description: 'Asmaul Husna | 99 Nama Allah',
+    url: 'https://asmaulhusna.vercel.app',
+    image:
+      'https://og.wansaleh.com/api/og?siteName=Asmaul Husna&description=99 Nama Allah',
     type: 'website',
     robots: 'follow, index',
   };

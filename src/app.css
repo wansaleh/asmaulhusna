@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Uthman Naskh';
+  font-display: swap;
+  src: local('KFGQPC Uthman Taha Naskh'),
+    url('https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff2/UthmanTN1%20Ver10.woff2')
+      format('woff2'),
+    url('https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff/UthmanTN1%20Ver10.woff')
+      format('woff');
+}
+@font-face {
+  font-family: 'Uthman Naskh';
+  font-display: swap;
+  font-weight: bold;
+  src: local('KFGQPC Uthman Taha Naskh Bold'),
+    local('KFGQPCUthmanTahaNaskh-Bold'),
+    url('https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff2/UthmanTN1B%20Ver10.woff2')
+      format('woff2'),
+    url('https://cdn.rawgit.com/mustafa0x/qpc-fonts/f93bf5f3/various-woff/UthmanTN1B%20Ver10.woff')
+      format('woff');
+}
+
 ::-moz-selection {
   background: theme('colors.brand');
 }
@@ -34,6 +55,11 @@ strong {
 
 @layer base {
   .layout {
-    @apply px-6 mx-auto w-full max-w-6xl;
+    @apply px-6 mx-auto w-full max-w-[90rem];
   }
+}
+
+.arabic {
+  direction: rtl;
+  font-family: 'Uthman Naskh', sans-serif;
 }
