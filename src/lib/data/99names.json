@@ -1,0 +1,702 @@
+[
+  {
+    "id": "0",
+    "name": "Allah",
+    "arabic": "&#1575;&#1614;&#1604;&#1604;&#1607;",
+    "english": "The name of Allah",
+    "description": "Allah is Al-ism Al-a’zam, the greatest name which contains all the divine attributes and is the sign of the essence and cause of all existence. Allah does not resemble in any way any of His creation. Allah is Allah’s name only. Nothing else can assume this name or share it."
+  },
+  {
+    "id": "1",
+    "name": "Ar-Rahman",
+    "arabic": "&#1575;&#1614;&#1604;&#1585;&#1614;&#1617;&#1614;&#1581;&#1618;&#1605;&#1575;&#1614;&#1606;&#1615;",
+    "english": "The All-Compassionate",
+    "description": "He is the One who wills Mercy and good for all creation, at all times, He pours upon all creation infinite bounties."
+  },
+  {
+    "id": "2",
+    "name": "Ar-Rahim",
+    "arabic": "&#1575;&#1614;&#1604;&#1585;&#1614;&#1617;&#1614;&#1581;&#1616;&#1610;&#1618;&#1605;&#1615;",
+    "english": "The most merciful",
+    "description": "He is the source of infinite mercy and benificence, who rewards with eternal gifts the one who uses his bounties for the good."
+  },
+  {
+    "id": "3",
+    "name": "Al-Malik",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1614;&#1604;&#1616;&#1603;&#1615;",
+    "english": "The Sovereign",
+    "description": "He is the owner and ruler of the entire universe, visible and invisible, and of all creation, from before the beginning and after the end."
+  },
+  {
+    "id": "4",
+    "name": "Al-Quddus",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1602;&#1615;&#1583;&#1617;&#1615;&#1608;&#1618;&#1587;&#1615;",
+    "english": "The Pure One",
+    "description": "He is the most pure one, devoid of all Blemish, Shortcoming, Weakness, Heedlessness and Error."
+  },
+  {
+    "id": "5",
+    "name": "As-Salam",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1587;&#1617;&#1614;&#1604;&#1575;&#1614;&#1605;&#1615;",
+    "english": "The Source of Peace",
+    "description": "He is the One who saves the believing servants from all dangers, bringing them peace, blessings and security of paradise."
+  },
+  {
+    "id": "6",
+    "name": "Al-Mu'min",
+    "arabic": "&#1575;&#1604;&#1618;&#1605;&#1615;&#1572;&#1618;&#1605;&#1616;&#1606;&#1615;",
+    "english": "Giver of Peace",
+    "description": "He is the illuminator of the light of faith in hearts. He is the Comforter, the Protector of the ones who take refuge in Him."
+  },
+  {
+    "id": "7",
+    "name": "Al-Muhaymin",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1607;&#1614;&#1610;&#1618;&#1605;&#1616;&#1606;&#1615;",
+    "english": "The Guardian",
+    "description": "He is the Protector and the Guardian. He is the One who sees to the growth of His creation, leading them where they are destined to go."
+  },
+  {
+    "id": "8",
+    "name": "Al-A'zeez",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1593;&#1614;&#1586;&#1616;&#1610;&#1618;&#1586;&#1615;",
+    "english": "The Victorious",
+    "description": "He is the victorious One whom no force can overwhelm. There is no strength in this universe that can stand before His will."
+  },
+  {
+    "id": "9",
+    "name": "Al-Jabbar",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1580;&#1614;&#1576;&#1617;&#1614;&#1575;&#1585;&#1615;",
+    "english": "The Compeller",
+    "description": "He is the repairer of the broken, the completer of the lacking, the one who can enforce His will without any opposition."
+  },
+  {
+    "id": "10",
+    "name": "Al-Mutakabbir",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1578;&#1614;&#1603;&#1614;&#1576;&#1617;&#1616;&#1585;&#1615;",
+    "english": "The Greatest",
+    "description": "He is the greatest, who shows His greatness in everything, on all occassions."
+  },
+  {
+    "id": "11",
+    "name": "Al-Khaaliq",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1582;&#1614;&#1575;&#1604;&#1616;&#1602;&#1615;",
+    "english": "The Creator",
+    "description": "He is the one who creates from nothing, creating at the same time the states, conditions and sustenance of all that He has created. He establishes how, when and where creation will take place."
+  },
+  {
+    "id": "12",
+    "name": "Al-Baari",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1576;&#1614;&#1575;&#1585;&#1616;&#1574;&#1615;",
+    "english": "One who gives life",
+    "description": "He is the one who orders His creation with perfect harmony – not only each thing within itself, but everything in accordance with everything else."
+  },
+  {
+    "id": "13",
+    "name": "Al-Musawwir",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1589;&#1614;&#1608;&#1617;&#1616;&#1585;&#1615;",
+    "english": "Fashioner of Shapes",
+    "description": "He is the one who, without using any model, shapes everything in the most perfect shape."
+  },
+  {
+    "id": "14",
+    "name": "Al-Ghaffar",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1594;&#1614;&#1601;&#1617;&#1614;&#1575;&#1585;&#1615;",
+    "english": "The Forgiving",
+    "description": "He is the One who accepts repentance and forgives."
+  },
+  {
+    "id": "15",
+    "name": "Al-Qahhaar",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1602;&#1614;&#1607;&#1617;&#1614;&#1575;&#1585;&#1615; ",
+    "english": "The Dominant",
+    "description": "He is the ever dominating One, who has surrounded all His creation from without and within with His irresistable power. Nothing can escape Him."
+  },
+  {
+    "id": "16",
+    "name": "Al-Wahhab",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1608;&#1614;&#1607;&#1617;&#1614;&#1575;&#1576;&#1615;",
+    "english": "The Giver of All",
+    "description": "He is the donor of all, without conditions, without limits without asking anyone benefit or return, giving everything to everyone, everywhere, always."
+  },
+  {
+    "id": "17",
+    "name": "Ar-Razzaaq",
+    "arabic": "&#1575;&#1614;&#1604;&#1585;&#1617;&#1614;&#1586;&#1617;&#1614;&#1575;&#1602;&#1615;",
+    "english": "The Sustainer",
+    "description": "He is the Sustainer. Sustenance is needed to maintain the creation (both physical and spiritual sustenance)."
+  },
+  {
+    "id": "18",
+    "name": "Al-Fattaah",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1601;&#1614;&#1578;&#1617;&#1614;&#1575;&#1581;&#1615;",
+    "english": "The Opener",
+    "description": "He is the Opener & the Solver, the Easer of all that is locked, tied and hardened."
+  },
+  {
+    "id": "19",
+    "name": "Al-Aleem",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1593;&#1614;&#1604;&#1616;&#1610;&#1618;&#1605;&#1615;",
+    "english": "The Knower of All",
+    "description": "He is the One who knows all. He knows what has happened, what is happening, and what will happen from the beginning to the end."
+  },
+  {
+    "id": "20",
+    "name": "Al-Qaabid",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1602;&#1614;&#1575;&#1576;&#1616;&#1590;&#1615;",
+    "english": "The Constrictor",
+    "description": "He is the One who constricts. All existence is in the power of Allah. The life on this planet is a test for us, but Allah does not test his servants above their ability."
+  },
+  {
+    "id": "21",
+    "name": "Al-Basit",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1576;&#1614;&#1575;&#1587;&#1616;&#1591;&#1615;",
+    "english": "The Reliever",
+    "description": "He is the one who releases abundance, joy, relief, and ease after difficulties. These are manifestations of His attribute Al-Baasit."
+  },
+  {
+    "id": "22",
+    "name": "Al-Khaafid",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1582;&#1614;&#1575;&#1601;&#1616;&#1590;&#1615;",
+    "english": "The Abaser",
+    "description": "Allah most high is the One who raises His creatures to honour and fame and who can cast them down to the lowest of the low."
+  },
+  {
+    "id": "23",
+    "name": "Ar-Raafi",
+    "arabic": "&#1575;&#1614;&#1604;&#1585;&#1617;&#1614;&#1575;&#1601;&#1616;&#1593;&#1615;",
+    "english": "The Exalter",
+    "description": "Allah most high is the One who raises His creatures to honour and fame and who can cast them down to the lowest of the low."
+  },
+  {
+    "id": "24",
+    "name": "Al-Mu'izz",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1593;&#1616;&#1586;&#1617;&#1615;",
+    "english": "The Bestower of Honors",
+    "description": "He is the One who honours and the One who humiliates."
+  },
+  {
+    "id": "25",
+    "name": "Al-Mudhill",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1584;&#1616;&#1604;&#1617;&#1614;",
+    "english": "The Humiliator",
+    "description": "He is the One who honours and the One who humiliates."
+  },
+  {
+    "id": "26",
+    "name": "As-Sami",
+    "arabic": "&#1575;&#1614;&#1604;&#1587;&#1617;&#1614;&#1605;&#1616;&#1610;&#1618;&#1593;&#1615;",
+    "english": "The Hearer of All",
+    "description": "He is the one who hears all – that which comes from the lips, passes through the minds, is felt by the hearts, the rustling of leaves in the wind, the footsteps of ants and atoms moving through the void."
+  },
+  {
+    "id": "27",
+    "name": "Al-Baseer",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1576;&#1614;&#1589;&#1616;&#1610;&#1618;&#1585;&#1615;",
+    "english": "The Seer of All",
+    "description": "He is the One who is all-seeing. He sees all that has passed, all there is, and all there will be until the end of time."
+  },
+  {
+    "id": "28",
+    "name": "Al-Hakam",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1581;&#1614;&#1603;&#1614;&#1605;&#1615;",
+    "english": "Maker of Immutable Judgements",
+    "description": "He is the One who orders. He is the bringer of justice and truth. He judges, and executes His justice."
+  },
+  {
+    "id": "29",
+    "name": "Al-`Adl",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1593;&#1614;&#1583;&#1618;&#1604;&#1615;",
+    "english": "The Equitable",
+    "description": "He is the absolute justice. Justice secures peace, balance order and harmony. Allah the just is the enemy of tyrants."
+  },
+  {
+    "id": "30",
+    "name": "Al-Lateef",
+    "arabic": "&#1575;&#1614;&#1604;&#1604;&#1617;&#1614;&#1591;&#1616;&#1610;&#1618;&#1601;&#1615;",
+    "english": "The Kind",
+    "description": "He is the most delicate, fine, gentle, beautiful one, He is the one who knows the finest details of beauty. The finest of His beauties are hidden in the secrets of the beauties of the soul, wisdom, and divine light."
+  },
+  {
+    "id": "31",
+    "name": "Al-Khabeer",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1582;&#1614;&#1576;&#1616;&#1610;&#1618;&#1585;&#1615;",
+    "english": "The All-Aware",
+    "description": "He is the one who is aware of the hidden inner occurrences in everything. He is the one whose cognisance reaches the deepest, darkest, hidden corners of His kingdom, where neither human intelligence nor His angels can penetrate."
+  },
+  {
+    "id": "32",
+    "name": "Al-Haleem",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1581;&#1614;&#1604;&#1616;&#1610;&#1618;&#1605;&#1615;",
+    "english": "The Forbearing",
+    "description": "He is forbearing in the punishment of the guilty. He waits, giving time to the sinner to realise his guilt and ask for forgiveness in order that He may forgive him rather than punish him."
+  },
+  {
+    "id": "33",
+    "name": "Al-Azeem",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1593;&#1614;&#1592;&#1616;&#1610;&#1618;&#1605;&#1615;",
+    "english": "The Magnificent",
+    "description": "He is the greatest on the earth below and in the heavens above, in realms where our sight cannot reach and of which our minds cannot conceive. He is the absolute and perfect greatness."
+  },
+  {
+    "id": "34",
+    "name": "Al-Ghafur",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1594;&#1614;&#1601;&#1615;&#1608;&#1618;&#1585;&#1615;",
+    "english": "The Forgiver",
+    "description": "He is the most forgiving one. He veils our faults from the eyes of other men, from the angels and relieves us from the suffering of continual remembrance of our faults."
+  },
+  {
+    "id": "35",
+    "name": "Ash-Shakoor",
+    "arabic": "&#1575;&#1614;&#1604;&#1588;&#1617;&#1614;&#1603;&#1615;&#1608;&#1618;&#1585;&#1615;",
+    "english": "The Rewarder of Thankfulness",
+    "description": "He is the one who repays a good deed with a much greater reward. Thankfulness is to return good with good."
+  },
+  {
+    "id": "36",
+    "name": "Al-Ali",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1593;&#1614;&#1604;&#1616;&#1610;&#1617;&#1615;",
+    "english": "The Highest",
+    "description": "He is the highest One. He is higher than the whole of the created universe. His nearness and farness and His being high cannot be measured by the limits of human intellect."
+  },
+  {
+    "id": "37",
+    "name": "Al-Kabeer",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1582;&#1614;&#1576;&#1616;&#1610;&#1618;&#1585;&#1615;",
+    "english": "The Greatest",
+    "description": "He is the greatest, whose greatness stretches from before the beginning until after the end. There is no difference for Him between the creation of an atom and the infinite –seeming universe. This is His grandeur as much as we can understand it. He is greater than that."
+  },
+  {
+    "id": "38",
+    "name": "Al-Hafeez",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1581;&#1614;&#1601;&#1616;&#1610;&#1618;&#1592;&#1615;",
+    "english": "The Preserver",
+    "description": "He is the one who remembers all that was and all that is, keeping in His divine protection all that there will be."
+  },
+  {
+    "id": "39",
+    "name": "Al-Muqit",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1602;&#1616;&#1610;&#1618;&#1578;&#1615;",
+    "english": "The Nourisher",
+    "description": "He is the nourisher of all creation. Allah creates the nourishment of His creatures before He creates them. No one can take away the nourishment destined for each element of creation."
+  },
+  {
+    "id": "40",
+    "name": "Al-Haseeb",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1581;&#1614;&#1587;&#1616;&#1610;&#1618;&#1576;&#1615;",
+    "english": "The Accounter",
+    "description": "He is the one who takes account of all and everything that His creation does or is subjected to."
+  },
+  {
+    "id": "41",
+    "name": "Al-Jaleel",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1580;&#1614;&#1604;&#1616;&#1610;&#1618;&#1604;&#1615;",
+    "english": "The Mighty",
+    "description": "He is the lord of majesty and might. His might and His greatness, His eternity bears no resemblance to any energy, matter or time."
+  },
+  {
+    "id": "42",
+    "name": "Al-Kareem",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1603;&#1614;&#1585;&#1616;&#1610;&#1618;&#1605;&#1615;",
+    "english": "The Generous",
+    "description": "He is the generous One. His greatest generosity is His Mercy, through which He forgives when He could punish."
+  },
+  {
+    "id": "43",
+    "name": "Ar-Raqeeb",
+    "arabic": "&#1575;&#1614;&#1604;&#1585;&#1617;&#1614;&#1602;&#1616;&#1610;&#1618;&#1576;&#1615;",
+    "english": "The Watchful One",
+    "description": "He is the One who watches everything, always. This scrutiny of every detail in the existence of all creation is in part protective."
+  },
+  {
+    "id": "44",
+    "name": "Al-Mujeeb",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1580;&#1616;&#1610;&#1618;&#1576;&#1615;",
+    "english": "The Responder to Prayer",
+    "description": "He is the one who responds to all the needs of His servants. Allah is closer to His creatures than they are to themselves. He is not any closer to a saint than He is to you or a mustard seed."
+  },
+  {
+    "id": "45",
+    "name": "Al-Waasi",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1608;&#1614;&#1575;&#1587;&#1616;&#1593;&#1615;",
+    "english": "The All-Comprehending",
+    "description": "He is the limitless vastness, whose knowledge, mercy, power, generosity and all other beautiful attributes are infinite."
+  },
+  {
+    "id": "46",
+    "name": "Al-Hakeem",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1581;&#1614;&#1603;&#1616;&#1610;&#1618;&#1605;&#1615;",
+    "english": "The Perfectly Wise",
+    "description": "He is the perfectly wise, in His knowledge and in His deeds. There is no doubt or uncertainty in His knowledge, nor does it have an end."
+  },
+  {
+    "id": "47",
+    "name": "Al-Wadud",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1608;&#1614;&#1583;&#1615;&#1608;&#1583;&#1615;",
+    "english": "The Loving One",
+    "description": "He is the one who loves His good servants. He is the only one who is worthy of love."
+  },
+  {
+    "id": "48",
+    "name": "Al-Majeed",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1614;&#1580;&#1616;&#1610;&#1618;&#1583;&#1615;",
+    "english": "The Majestic One",
+    "description": "Allah most high is glorious and majestic in the whole of His creation and beyond. No hand reaches Him, no power can touch Him, yet He is closer to His servants than their own souls. His state is pure perfection. His acts are pure wisdom."
+  },
+  {
+    "id": "49",
+    "name": "Al-Baa'ith",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1576;&#1614;&#1575;&#1593;&#1616;&#1579;&#1615;",
+    "english": "The Resurrector",
+    "description": "He is the raiser from the dead. Allah will give life back to all creation on the day of judgement."
+  },
+  {
+    "id": "50",
+    "name": "Ash-Shaheed",
+    "arabic": "&#1575;&#1614;&#1604;&#1588;&#1617;&#1614;&#1607;&#1616;&#1610;&#1583;&#1615;",
+    "english": "The Witness",
+    "description": "He is the one who witnesses all that happens everywhere at all times."
+  },
+  {
+    "id": "51",
+    "name": "Al-Haqq",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1581;&#1614;&#1602;&#1617;&#1615;",
+    "english": "The Truth",
+    "description": "Allah is the truth, whose being is ever unchanged."
+  },
+  {
+    "id": "52",
+    "name": "Al-Wakeel",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1608;&#1614;&#1603;&#1616;&#1610;&#1604;&#1615;",
+    "english": "The Trustee",
+    "description": "Allah is the ultimate and faithful trustee. Men think that they are able to do, but He is the one who does everything. He can replace everything in the universe, but nothing can replace Him nor can stand on its own without being dependent on Him."
+  },
+  {
+    "id": "53",
+    "name": "Al-Qawi",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1602;&#1614;&#1608;&#1616;&#1610;&#1617;&#1615;",
+    "english": "Almighty",
+    "description": "Allah is the most strong one, the inexhaustible. He possesses all strength. He can create a billion universes with the same ease with which He creates a blade of grass."
+  },
+  {
+    "id": "54",
+    "name": "Al-Mateen",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1614;&#1578;&#1616;&#1610;&#1606;&#1615;",
+    "english": "The Forceful One",
+    "description": "Allah is perfect in His strength and His firmness. None can be saved from this strength, no force can oppose it and nothing can weaken it."
+  },
+  {
+    "id": "55",
+    "name": "Al-Wali",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1608;&#1614;&#1604;&#1616;&#1610;&#1617;&#1615;",
+    "english": "The Governor",
+    "description": "Allah is the protecting friend of His good servants. He eliminates their difficulties and gives them guidance, peace and success in their affairs in this world and in the hereafter."
+  },
+  {
+    "id": "56",
+    "name": "Al-Hameed",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1581;&#1614;&#1605;&#1616;&#1610;&#1583;&#1615;",
+    "english": "The Praised One",
+    "description": "Allah is most praiseworthy, all that exist praise Allah with their tongues, with their action, or simply by their very existence. He is the only one who is worthy of devotion, respect, thankfulness and praise."
+  },
+  {
+    "id": "57",
+    "name": "Al-Muhsi",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1581;&#1618;&#1589;&#1616;&#1610;",
+    "english": "The Appraiser",
+    "description": "Allah is the possessor of all quantitative knowledge. He sees and knows everything in its reality. He knows the number of all existence in the universe down to the number of breaths exhaled and inhaled by each of His creatures."
+  },
+  {
+    "id": "58",
+    "name": "Al-Mubdi",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1576;&#1618;&#1583;&#1616;&#1574;&#1615;",
+    "english": "The Originator",
+    "description": "Allah is the originator of all. He creates without model or material."
+  },
+  {
+    "id": "59",
+    "name": "Al-Mu'eed",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1593;&#1616;&#1610;&#1583;&#1615;",
+    "english": "The Restorer",
+    "description": "Allah is the restorer of the things that He has created and destroyed."
+  },
+  {
+    "id": "60",
+    "name": "Al-Muhyi",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1581;&#1618;&#1610;&#1616;&#1610;",
+    "english": "The Giver of Life",
+    "description": "Allah is the giver of life to things without life. Allah is the one who has created life and who has created death, no one else can do that."
+  },
+  {
+    "id": "61",
+    "name": "Al-Mumeet",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1605;&#1616;&#1610;&#1578;&#1615;",
+    "english": "The Taker of Life",
+    "description": "Allah is the creator of death. All who are alive will certainly die. Man is made of a combination of the flesh and the soul. The body is temporal, the soul is eternal."
+  },
+  {
+    "id": "62",
+    "name": "Al-Haiy",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1602;&#1614;&#1610;&#1617;&#1615;&#1608;&#1605;&#1615;",
+    "english": "The Ever Living One",
+    "description": "Allah is the perfectly alive and ever living one. Allah is cognizant of all, and all actions are His. All that is known and will be known is within His knowledge. All existence is always comprehended in His action."
+  },
+  {
+    "id": "63",
+    "name": "Al-Qayyum",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1608;&#1614;&#1575;&#1580;&#1616;&#1583;&#1615;",
+    "english": "The Self-Existing One",
+    "description": "Allah is the ever self-existing one upon whom the existence of all depends. His existence depends upon none other than Himself."
+  },
+  {
+    "id": "64",
+    "name": "Al-Waajid",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1608;&#1614;&#1575;&#1580;&#1616;&#1583;&#1615;",
+    "english": "The Finder",
+    "description": "Allah finds and obtains whatever He wishes whenever He wishes. It is even superfluous to use the word \"FIND\" because all is in His presence at all times."
+  },
+  {
+    "id": "65",
+    "name": "Al-Maajid",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1614;&#1575;&#1580;&#1616;&#1583;&#1615;",
+    "english": "The Glorious",
+    "description": "Allah is the most glorious, who shows infinite generosity and munificence to those close to Him."
+  },
+  {
+    "id": "66",
+    "name": "Al-Waahid",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1608;&#1614;&#1575;&#1581;&#1616;&#1583;&#1615;",
+    "english": "The Indivisible",
+    "description": "Allah is one. He has no equal, none like Him nor any partner in His essence, in His attributes, in His actions, in His orders, or in His beautiful Names."
+  },
+  {
+    "id": "67",
+    "name": "Al-Ahad",
+    "arabic": "&#1575;&#1614;&#1604;&#1571;&#1614;&#1581;&#1614;&#1583;&#1615;",
+    "english": "The One Unequalled",
+    "description": "He is the unity in which all names, attributes and their relations to any and all are united."
+  },
+  {
+    "id": "68",
+    "name": "As-Samad",
+    "arabic": "&#1575;&#1614;&#1604;&#1589;&#1617;&#1614;&#1605;&#1614;&#1583;&#1615;",
+    "english": "The Satisfier of All Needs",
+    "description": "Allah is the satisfier of all needs, and all is in need of Him. He is the sole recourse; the only place of support where one may go to rid oneself of all trouble and to receive all that one needs through the blessings of this name."
+  },
+  {
+    "id": "69",
+    "name": "Al-Qaadir",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1602;&#1614;&#1575;&#1583;&#1616;&#1585;&#1615;",
+    "english": "The All Powerful",
+    "description": "Allah is the all-powerful who does what He wills the way He wills. He created the universe by Himself, from nothing, with neither materials nor model. He said “be” and it became."
+  },
+  {
+    "id": "70",
+    "name": "Al-Muqtadir",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1602;&#1618;&#1578;&#1614;&#1583;&#1616;&#1585;&#1615;",
+    "english": "Powerful",
+    "description": "Allah is the one who creates all power and has total control over all power. Allah bestows power upon things on earth and in heaven, and uses them in accordance with His all-pervasive wisdom and will."
+  },
+  {
+    "id": "71",
+    "name": "Al-Muqaddim",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1602;&#1614;&#1583;&#1617;&#1616;&#1605;&#1615;",
+    "english": "The Expediter",
+    "description": "Allah brings forward whomever He wills. Allah advances the chosen among His creation, bringing some above and ahead of others."
+  },
+  {
+    "id": "72",
+    "name": "Al-Mu'akhkhir",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1572;&#1614;&#1582;&#1617;&#1616;&#1585;&#1615;",
+    "english": "The Delayer",
+    "description": "Allah is He who leaves whomever He wills behind, and delays advancement."
+  },
+  {
+    "id": "73",
+    "name": "Al-Awwal",
+    "arabic": "&#1575;&#1614;&#1604;&#1571;&#1614;&#1608;&#1617;&#1614;&#1604",
+    "english": "The First",
+    "description": "Allah is the first. There is none like Him. His firstness means that there is none prior to Him, that He is self-existent, that all comes from Him and that He is the cause of all that became."
+  },
+  {
+    "id": "74",
+    "name": "Al-Aakhir",
+    "arabic": "&#1575;&#1614;&#1604;&#1570;&#1582;&#1616;&#1585;&#1615;",
+    "english": "The Last",
+    "description": "Allah is the last. As He has no beginning, He has no end. He is eternal. He is the last in the sense that the circle of existence begins and ends with Him."
+  },
+  {
+    "id": "75",
+    "name": "Az-Zaahir",
+    "arabic": "&#1575;&#1614;&#1604;&#1592;&#1617;&#1614;&#1575;&#1607;&#1616;&#1585;&#1615;",
+    "english": "The Obvious",
+    "description": "Allah is the manifest one. Allah most high is hidden from those who seek to see by means of their senses, but He is apparent to those ho seek to know Him by the wisdom and reason that Allah has bestowed upon them."
+  },
+  {
+    "id": "76",
+    "name": "Al-Baatin",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1576;&#1614;&#1575;&#1591;&#1616;&#1606;&#1615;",
+    "english": "The Hidden One",
+    "description": "Allah is the hidden one. His existence is both manifest and hidden. To truly know the creator is not possible because the knowledge, the mind the understanding of the created one are limited."
+  },
+  {
+    "id": "77",
+    "name": "Al-Waali",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1608;&#1614;&#1575;&#1604;&#1616;&#1610;",
+    "english": "The Protecting Friend",
+    "description": "Allah is the sole manager and governor of the whole creation."
+  },
+  {
+    "id": "78",
+    "name": "Al-Muta'ali",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1578;&#1614;&#1593;&#1614;&#1575;&#1604;&#1616;&#1610;",
+    "english": "The Supreme One",
+    "description": "Allah is the Supreme One. His greatness grows. As He gives from His inexhaustible treasures, His riches increase. As the needs of His creation increase, His bounties increase."
+  },
+  {
+    "id": "79",
+    "name": "Al-Barr",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1576;&#1614;&#1585;&#1617;&#1615;",
+    "english": "The Doer of Good",
+    "description": "Allah is the perfect doe of good. All good and bounty come from Him. He loves for His servants only good, comfort and ease."
+  },
+  {
+    "id": "80",
+    "name": "At-Tawwaab",
+    "arabic": "&#1575;&#1614;&#1604;&#1578;&#1617;&#1614;&#1608;&#1614;&#1575;&#1576;&#1615;",
+    "english": "The Guide to Repentance",
+    "description": "Allah is He who constantly turns man to repentance."
+  },
+  {
+    "id": "81",
+    "name": "Al-Muntaqim",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1606;&#1618;&#1578;&#1614;&#1602;&#1616;&#1605;&#1615;",
+    "english": "The Avenger",
+    "description": "Allah is the great avenger. Allah punishes those who persist in revolting, raving in their unconsciousness and egotism, creating disharmony, tyrannising Allah’s servants and His creation."
+  },
+  {
+    "id": "82",
+    "name": "Al-'Afuww",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1593;&#1614;&#1601;&#1615;&#1608;&#1617;&#1615;",
+    "english": "The Forgiver",
+    "description": "Allah is the forgiver, the eliminator of sins. He does not often punish the ones who deny, the ones who revolt. He accepts their recognition of their sins as repentance. He erases their sins."
+  },
+  {
+    "id": "83",
+    "name": "Ar-Raauf",
+    "arabic": "&#1575;&#1614;&#1604;&#1585;&#1617;&#1614;&#1572;&#1615;&#1608;&#1601;&#1615;",
+    "english": "The Clement",
+    "description": "Allah is all clement. In spite of His ability to see our sins, of His being just, of His being able to punish, the fact that He chooses to forgive proves His infinite mercy and clemency."
+  },
+  {
+    "id": "84",
+    "name": "Malik-al-Mulk",
+    "arabic": "&#1605;&#1614;&#1575;&#1604;&#1616;&#1603;&#1615; &#1575;&#1604;&#1618;&#1605;&#1615;&#1604;&#1618;&#1603;&#1616;",
+    "english": "The Owner of All",
+    "description": "Allah is the eternal owner of His kingdom. He shares neither the ownership nor the power, government or guardianship of the universe with anyone."
+  },
+  {
+    "id": "85",
+    "name": "Zul-Jalaal-e wal-Ikraam",
+    "arabic": "&#1584;&#1615;&#1608; &#1575;&#1604;&#1618;&#1580;&#1614;&#1604;&#1575;&#1614;&#1604;&#1616; &#1608;&#1614;&#1575;&#1604;&#1573;&#1616;&#1603;&#1618;&#1585;&#1614;&#1575;&#1605;&#1616;",
+    "english": "Majestic and Benevolent",
+    "description": "Allah is the Lord of Majesty and bounty. There is no perfection that does not belong to Him nor any blessing or honor that comes from other than Him. Allah is the owner of all majesty."
+  },
+  {
+    "id": "86",
+    "name": "Al-Muqsit",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1602;&#1618;&#1587;&#1616;&#1591;&#1615;",
+    "english": "The Equitable One",
+    "description": "Allah is the one who acts and distributes in justice and fairness. How harmonious and balanced is the creation: all the beauties in heaven and earth-mountains, seas, sunsets, flowers – and also the eyes to see."
+  },
+  {
+    "id": "87",
+    "name": "Al-Jaami",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1580;&#1614;&#1575;&#1605;&#1616;&#1593;&#1615;",
+    "english": "The Gatherer",
+    "description": "Allah is the gatherer of whatever He wishes, wherever He wishes. Allah has gathered together within this universe spaces, galaxies-stars, earths, seas, plants and animals, things whose nature, size, shape and colour are different."
+  },
+  {
+    "id": "88",
+    "name": "Al-Ghani",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1594;&#1614;&#1606;&#1616;&#1610;&#1617;&#1615;",
+    "english": "The Rich One",
+    "description": "Allah is the rich one who is self sufficient. His essence and attributes have no relationship to anything else. Someone whose existence and perfection depend on another needs to earn that existence. Only Allah needs not, neither does He need to earn."
+  },
+  {
+    "id": "89",
+    "name": "Al-Mughni",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1615;&#1594;&#1618;&#1606;&#1616;&#1610;",
+    "english": "The Enricher",
+    "description": "Allah is the enricher. He renders whomever He wishes rich and whomever He wishes poor."
+  },
+  {
+    "id": "90",
+    "name": "Al-Mani",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1605;&#1614;&#1575;&#1606;&#1616;&#1593;&#1615;",
+    "english": "The Hinderer",
+    "description": "Allah is the one who averts harm from His creation."
+  },
+  {
+    "id": "91",
+    "name": "Ad-Daar",
+    "arabic": "&#1575;&#1614;&#1604;&#1590;&#1617;&#1614;&#1575;&#1585;&#1617;&#1615;",
+    "english": "The Creator of The Harmful",
+    "description": "Allah is the creator of the harmful and evil as He is the creator of the good and beneficial. Ha has also taught us to opt for the good and escape the evil. Ha has given us power of discrimination, given us a will and freedom to choose."
+  },
+  {
+    "id": "92",
+    "name": "An-Naafi",
+    "arabic": "&#1575;&#1614;&#1604;&#1606;&#1617;&#1614;&#1575;&#1601;&#1616;&#1593;&#1615;",
+    "english": "The Creator of Good",
+    "description": "Allah is the creator of good. Allah has created man as the best of his creation and He has bestowed upon him gifts which render him unique and superior to the rest of creation."
+  },
+  {
+    "id": "93",
+    "name": "An-Nur",
+    "arabic": "&#1575;&#1614;&#1604;&#1606;&#1617;&#1615;&#1608;&#1585;&#1615;",
+    "english": "The Light",
+    "description": "Allah is the light that is shed upon the whole creation, making it apparent. That light is the light that brought existence out of the darkness of non-existence."
+  },
+  {
+    "id": "94",
+    "name": "Al-Haadi",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1607;&#1614;&#1575;&#1583;&#1616;&#1610;",
+    "english": "The Guide",
+    "description": "Allah is the one who creates guidance, leading his servants to good, benficence and the satisfaction of their needs."
+  },
+  {
+    "id": "95",
+    "name": "Al-Badee'u",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1576;&#1614;&#1583;&#1616;&#1610;&#1593;&#1615;",
+    "english": "The Originator",
+    "description": "Allah is the Originator of the creation, having created it without model or material. He does not need previous knowledge to think, to first investigate, to figure things out. Everything He creates is a wonder since He originated it from nothing."
+  },
+  {
+    "id": "96",
+    "name": "Al-Baaqi",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1576;&#1614;&#1575;&#1602;&#1616;&#1610;",
+    "english": "The Everlasting One",
+    "description": "Allah is the everlasting one whose existence in the future is forever. He has neither beginning nor end. The creation will end, and time with it. But Allah the everlasting one will still exist."
+  },
+  {
+    "id": "97",
+    "name": "Al-Waaris",
+    "arabic": "&#1575;&#1614;&#1604;&#1618;&#1608;&#1614;&#1575;&#1585;&#1616;&#1579;&#1615;",
+    "english": "The Inheritor of All",
+    "description": "Allah is the ultimate inheritor, to whom everything is left after its temporal possessors are gone. It is He who exists after all existence disappears, it is He to whom all existence returns."
+  },
+  {
+    "id": "98",
+    "name": "Ar-Rashid",
+    "arabic": "&#1575;&#1614;&#1604;&#1585;&#1617;&#1614;&#1588;&#1616;&#1610;&#1583;&#1615;",
+    "english": "The Righteous Teacher",
+    "description": "Allah is the righteous teacher who ordains righteousness for all creatures. In His wisdom He leads all matters to their finality in a perfect way and order."
+  },
+  {
+    "id": "99",
+    "name": "As-Sabur",
+    "arabic": "&#1575;&#1614;&#1604;&#1589;&#1617;&#1614;&#1576;&#1615;&#1608;&#1585;&#1615;",
+    "english": "The Patient One",
+    "description": "Allah is the most patient one. In His creation as in His actions, in His dealings with His creation, nothing is either bigger or smaller, better or worse, earlier or later than is determined for it to be."
+  }
+]
