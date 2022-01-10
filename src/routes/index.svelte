@@ -1,10 +1,10 @@
 <script context="module">
-  import names from '$lib/data/99names.json';
-
   export const prerender = true;
 
   /** @type {import('@sveltejs/kit').Load} */
-  export async function load() {
+  export async function load({ fetch }) {
+    const { names } = await fetch('/names.json').then((r) => r.json());
+
     return { props: { names } };
   }
 </script>

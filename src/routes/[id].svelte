@@ -1,12 +1,11 @@
 <script context="module">
-  import names from '$lib/data/99names.json';
+  export const prerender = true;
 
   /** @type {import('@sveltejs/kit').Load} */
-  export async function load({ params }) {
-    const index = names.findIndex((n) => n.id === params.id);
-    const name = names[index];
-    const prev = index - 1 >= 0 ? names[index - 1] : null;
-    const next = index + 1 < 99 ? names[index + 1] : null;
+  export async function load({ fetch, params }) {
+    const { name, prev, next } = await fetch(
+      `/names.json?id=${params.id}`
+    ).then((r) => r.json());
 
     return { props: { name, prev, next } };
   }
