@@ -21,6 +21,9 @@
   class="flex gap-1 justify-center items-center py-0 px-1 w-8 h-8 font-semibold"
   on:click={toggle}
 >
+  <span class="sr-only">
+    {#if theme === 'dark'}Light{:else}Dark{/if}
+  </span>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
