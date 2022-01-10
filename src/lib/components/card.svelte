@@ -8,9 +8,9 @@
   <div
     class="p-6 py-6 flex flex-col border-2 border-transparent hover:border-current transition rounded-2xl"
   >
-    <span class="text-4xl arabic mb-4 font-semibold">{@html name.name_ar}</span>
-    <a class="text-lg font-semibold link" href="/{name.id}">{name.name_tr}</a>
-    <span class="text-sm font-normal italic">{name.name_ms}</span>
-    <span class="text-sm font-normal opacity-60">{name.name_en}</span>
+    <span class="text-4xl arabic mb-4 font-semibold">{@html name.ar}</span>
+    <a class="text-lg font-semibold link" href="/{name.id}">{name.tr}</a>
+    <span class="text-sm font-normal italic">{name.ms}</span>
+    <span class="text-sm font-normal opacity-60">{name.en}</span>
   </div>
 </div>

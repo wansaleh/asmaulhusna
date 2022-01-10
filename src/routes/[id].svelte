@@ -15,12 +15,15 @@
 </script>
 
 <script lang="ts">
+  import Seo from '$lib/components/seo.svelte';
   import type { Name } from '$lib/types';
 
   export let name: Name;
   export let prev: Name | null;
   export let next: Name | null;
 </script>
+
+<Seo templateTitle="{name.tr} &ndash; {name.en}" />
 
 <div class="layout py-20 max-w-4xl">
   <div class="flex justify-between mb-20">
@@ -29,8 +32,8 @@
         href="/{prev.id}"
         class="text-2xl font-semibold flex flex-col text-left"
       >
-        <span class="arabic text-2xl">{prev.name_ar}</span>
-        <span class="text-lg">{prev.name_tr}</span>
+        <span class="arabic text-2xl">{prev.ar}</span>
+        <span class="text-lg">{prev.tr}</span>
       </a>
     {/if}
 
@@ -38,8 +41,8 @@
 
     {#if next}
       <a href="/{next.id}" class="text-2xl font-semibold flex flex-col">
-        <span class="arabic text-2xl">{next.name_ar}</span>
-        <span class="text-lg">{next.name_tr}</span>
+        <span class="arabic text-2xl">{next.ar}</span>
+        <span class="text-lg">{next.tr}</span>
       </a>
     {/if}
   </div>
@@ -48,11 +51,11 @@
     <div class="text-center md:text-right w-full md:w-1/3 p-4">
       <div class="text-2xl mb-8 font-semibold opacity-40">{name.id}</div>
       <h1 class="text-8xl arabic mb-12 font-semibold leading-tight">
-        {name.name_ar}
+        {name.ar}
       </h1>
-      <div class="text-4xl mt-10 font-semibold link">{name.name_tr}</div>
-      <div class="text-xl font-normal italic">{name.name_ms}</div>
-      <div class="text-xl font-normal opacity-60">{name.name_en}</div>
+      <div class="text-4xl mt-10 font-semibold link">{name.tr}</div>
+      <div class="text-xl font-normal italic">{name.ms}</div>
+      <div class="text-xl font-normal opacity-60">{name.en}</div>
     </div>
     <div class="text-center md:text-left w-full md:w-2/3 p-4">
       <p class="text-xl font-normal italic mb-10">{name.desc_ms}</p>

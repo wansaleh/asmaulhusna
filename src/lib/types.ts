@@ -1,9 +1,9 @@
 export type Name = {
   id: string;
-  name_ar: string;
-  name_tr: string;
-  name_ms: string;
-  name_en: string;
+  ar: string;
+  tr: string;
+  ms: string;
+  en: string;
   desc_ms: string;
   desc_en: string;
 };
