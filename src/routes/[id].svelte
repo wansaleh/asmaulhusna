@@ -21,7 +21,10 @@
   export let next: Name | null;
 </script>
 
-<Seo templateTitle="{name.tr} &ndash; {name.en}" />
+<Seo
+  templateTitle="{name.tr} &ndash; {name.en}"
+  description="{name.tr} &ndash; {name.en}"
+/>
 
 <div class="layout py-20 max-w-4xl">
   <div class="flex justify-between mb-20">
