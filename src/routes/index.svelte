@@ -1,9 +1,10 @@
 <script context="module">
+  import names from '$lib/data/99names.json';
+
   export const prerender = true;
 
   /** @type {import('@sveltejs/kit').Load} */
-  export async function load({ fetch }) {
-    const names = await fetch('/api.json').then((res) => res.json());
+  export async function load() {
     return { props: { names } };
   }
 </script>
@@ -27,7 +28,7 @@
   </h2>
 
   <div class="mt-16">
-    <div class="flex flex-wrap flex-row-reverse justify-center">
+    <div class="flex flex-wrap flex-row-reverse justify-center -m-2">
       {#each names as name (name.id)}
         <Card {name} />
       {/each}

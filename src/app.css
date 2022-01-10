@@ -58,6 +58,15 @@ strong {
   .layout {
     @apply px-6 mx-auto w-full max-w-[100rem];
   }
+
+  .link-overlay {
+    @apply relative;
+  }
+
+  .link-overlay a.link:before {
+    @apply absolute bottom-0 cursor-pointer left-0 right-0 top-0 z-10;
+    content: '';
+  }
 }
 
 .arabic {
