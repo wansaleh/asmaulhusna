@@ -1,5 +1,5 @@
 <script context="module">
-  export const prerender = true;
+  export const ssr = false;
 
   /** @type {import('@sveltejs/kit').Load} */
   export async function load({ fetch }) {
