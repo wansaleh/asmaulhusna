@@ -16,7 +16,10 @@
   export let names: Name[];
 </script>
 
-<div class="layout text-center py-20">
+<div class="layout py-20 text-center">
+  <h1 class="lg:text-8xl arabic relative mb-4 text-5xl font-semibold">
+    أسماء ٱلحسنى
+  </h1>
   <h1 class="lg:text-7xl relative text-5xl font-semibold">
     <span>Asmaul Husna</span>
   </h1>
@@ -28,7 +31,7 @@
   </h2>
 
   <div class="mt-16">
-    <div class="flex flex-wrap flex-row-reverse justify-center -m-2">
+    <div class="flex flex-row-reverse flex-wrap justify-center -m-2">
       {#each names as name (name.id)}
         <Card {name} />
       {/each}

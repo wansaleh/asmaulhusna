@@ -4,13 +4,13 @@
   export let name: Name;
 </script>
 
-<div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 link-overlay p-2">
+<div class="sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 link-overlay p-2 w-full">
   <div
-    class="p-6 py-6 flex flex-col border-2 border-transparent hover:border-current transition rounded-2xl"
+    class="dark:hover:bg-white hover:bg-black dark:hover:text-black hover:text-white flex flex-col py-6 px-4 rounded-lg transition"
   >
-    <span class="text-4xl arabic mb-4 font-semibold">{@html name.ar}</span>
-    <a class="text-lg font-semibold link" href="/{name.id}">{name.tr}</a>
-    <span class="text-sm font-normal italic">{name.ms}</span>
+    <span class="arabic mb-4 text-4xl font-semibold">{@html name.ar}</span>
+    <a class="link text-lg font-semibold" href="/{name.id}">{name.tr}</a>
+    <span class="text-sm italic font-normal">{name.ms}</span>
     <span class="text-sm font-normal opacity-60">{name.en}</span>
   </div>
 </div>
