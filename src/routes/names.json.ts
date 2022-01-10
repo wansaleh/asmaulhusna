@@ -4,6 +4,8 @@ import names from '$lib/data/99names.json';
 export async function get({ url }) {
   const id = url.searchParams.get('id');
 
+  console.log(id);
+
   if (id) {
     const index = names.findIndex((n) => n.id === id);
     const name = names[index];
