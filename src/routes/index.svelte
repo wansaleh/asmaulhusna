@@ -3,7 +3,7 @@
 
   /** @type {import('@sveltejs/kit').Load} */
   export async function load({ fetch }) {
-    const { names } = await fetch('/names.json').then((r) => r.json());
+    const { names } = await fetch('/names/all.json').then((r) => r.json());
 
     return { props: { names } };
   }

@@ -1,9 +1,11 @@
 <script context="module">
+  export const prerender = true;
+
   /** @type {import('@sveltejs/kit').Load} */
   export async function load({ fetch, params }) {
-    const { name, prev, next } = await fetch(
-      `/names.json?id=${params.id}`
-    ).then((r) => r.json());
+    const { name, prev, next } = await fetch(`/names/${params.id}.json`).then(
+      (r) => r.json()
+    );
 
     return { props: { name, prev, next } };
   }
