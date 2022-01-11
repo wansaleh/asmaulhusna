@@ -12,9 +12,12 @@
 <script lang="ts">
   import Card from '$lib/components/card.svelte';
   import type { Name } from '$lib/types';
+  import Seo from '$lib/components/seo.svelte';
 
   export let names: Name[];
 </script>
+
+<Seo />
 
 <div class="layout py-24 text-center">
   <h1 class="lg:text-8xl arabic relative mb-4 text-5xl font-semibold">
