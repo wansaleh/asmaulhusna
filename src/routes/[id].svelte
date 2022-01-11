@@ -32,7 +32,7 @@
       <div
         class="md:text-right dark:text-black dark:bg-white p-8 text-center text-white bg-black rounded-lg"
       >
-        <div class="mb-4 text-3xl font-bold opacity-60">#{name.id}</div>
+        <div class="mb-4 text-xl font-bold opacity-60">#{name.id}</div>
         <h1 class="arabic mb-16 text-7xl font-semibold leading-tight">
           {name.ar}
         </h1>
