@@ -45,8 +45,9 @@
         {#if prev}
           <a
             href="/{prev.id}"
-            class="flex flex-col flex-1 px-4 pt-8 pb-2 text-2xl font-semibold text-right rounded-lg border-2 border-current"
+            class="flex flex-col flex-1 px-4 pt-2 pb-2 text-2xl font-semibold text-right rounded-lg border-2 border-current"
           >
+            <span class="mb-2 text-base opacity-60">#{prev.id}</span>
             <span class="arabic text-2xl">{prev.ar}</span>
             <span class="text-sm">{prev.tr}</span>
           </a>
@@ -55,8 +56,9 @@
         {#if next}
           <a
             href="/{next.id}"
-            class="flex flex-col flex-1 px-4 pt-8 pb-2 text-2xl font-semibold text-left rounded-lg border-2 border-current"
+            class="flex flex-col flex-1 px-4 pt-2 pb-2 text-2xl font-semibold text-left rounded-lg border-2 border-current"
           >
+            <span class="mb-2 text-base opacity-60">#{next.id}</span>
             <span class="arabic text-2xl">{next.ar}</span>
             <span class="text-sm">{next.tr}</span>
           </a>
