@@ -26,6 +26,19 @@
   description="{name.tr} &ndash; {name.en}"
 />
 
+<div
+  class="absolute top-[-10vh] left-[-10vw] right-[-10vw] bottom-[-10vh] text-8xl font-bold select-none pointer-events-none opacity-5 transform -rotate-12 whitespace-nowrap repeating -z-10"
+>
+  {#each Array.from(Array(30).keys()) as i}
+    <div class="my-8">
+      {#each Array.from(Array(7).keys()) as j}
+        <span class="mx-8">{name.tr}</span>
+      {/each}
+    </div>
+  {/each}
+  <!-- {@html `<div>${`<span>${name.tr}</span>`.repeat(10)}</div>`.repeat(20)} -->
+</div>
+
 <div class="layout py-20 max-w-5xl">
   <div class="flex flex-wrap justify-center items-start">
     <div class="md:w-1/3 w-full">
@@ -45,7 +58,7 @@
         {#if prev}
           <a
             href="/{prev.id}"
-            class="flex flex-col flex-1 px-4 pt-2 pb-2 text-2xl font-semibold text-right rounded-lg border-2 border-current"
+            class="flex flex-col flex-1 px-4 pt-2 pb-2 text-2xl font-semibold text-right rounded-lg border-2 border-current bg-white dark:bg-black"
           >
             <span class="mb-2 text-base opacity-60">#{prev.id}</span>
             <span class="arabic text-2xl">{prev.ar}</span>
@@ -56,7 +69,7 @@
         {#if next}
           <a
             href="/{next.id}"
-            class="flex flex-col flex-1 px-4 pt-2 pb-2 text-2xl font-semibold text-left rounded-lg border-2 border-current"
+            class="flex flex-col flex-1 px-4 pt-2 pb-2 text-2xl font-semibold text-left rounded-lg border-2 border-current bg-white dark:bg-black"
           >
             <span class="mb-2 text-base opacity-60">#{next.id}</span>
             <span class="arabic text-2xl">{next.ar}</span>
@@ -72,3 +85,9 @@
     </div>
   </div>
 </div>
+
+<style>
+  .repeating > div:nth-child(even) {
+    @apply ml-[-10rem];
+  }
+</style>

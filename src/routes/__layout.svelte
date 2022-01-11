@@ -8,11 +8,11 @@
 
 <Seo />
 
-<div class="relative">
+<div class="relative overflow-hidden">
   <Nav />
 
   <main
-    class="flex relative flex-col justify-center items-center min-h-screen font-normal"
+    class="flex relative flex-col justify-center items-center min-h-screen font-normal z-10"
   >
     <slot />
 
