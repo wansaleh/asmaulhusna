@@ -1,4 +1,5 @@
 import names from '$lib/data/99names.json';
+import refs from '$lib/data/quranrefs.json';
 
 /** @type {import('@sveltejs/kit').RequestHandler} */
 export async function get({ params }) {
@@ -9,7 +10,7 @@ export async function get({ params }) {
     const next = index + 1 < 99 ? names[index + 1] : null;
 
     return {
-      body: { name, prev, next },
+      body: { name, quranRef: refs[index], prev, next },
     };
   }
 

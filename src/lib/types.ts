@@ -7,3 +7,11 @@ export type Name = {
   desc_ms: string;
   desc_en: string;
 };
+
+export type QuranRef = {
+  from: string;
+  ar: string;
+  en: string;
+  num: string;
+  ext: string;
+};

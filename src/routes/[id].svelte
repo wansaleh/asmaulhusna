@@ -1,5 +1,6 @@
 <script context="module">
   import names from '$lib/data/99names.json';
+  import refs from '$lib/data/quranrefs.json';
 
   /** @type {import('@sveltejs/kit').Load} */
   export async function load({ fetch, params }) {
@@ -8,17 +9,27 @@
     const prev = index - 1 >= 0 ? names[index - 1] : null;
     const next = index + 1 < 99 ? names[index + 1] : null;
 
-    return { props: { name, prev, next } };
+    return {
+      props: {
+        name,
+        quranRefs: refs[index],
+        prev,
+        next,
+      },
+    };
   }
 </script>
 
 <script lang="ts">
   import Seo from '$lib/components/seo.svelte';
-  import type { Name } from '$lib/types';
+  import type { Name, QuranRef } from '$lib/types';
 
   export let name: Name;
+  export let quranRefs: QuranRef[];
   export let prev: Name | null;
   export let next: Name | null;
+
+  console.log(quranRefs);
 </script>
 
 <Seo
@@ -82,6 +93,16 @@
     <div class="md:text-left md:w-2/3 md:py-8 p-8 py-0 w-full text-center">
       <p class="mb-10 text-xl italic font-normal">{name.desc_ms}</p>
       <p class="text-xl font-normal opacity-60">{name.desc_en}</p>
+      {#if quranRefs}
+        <div class="text-sm font-normal mt-10">
+          <b>Mentioned in:</b>
+          {#each quranRefs as ref}
+            <p>
+              {@html ref.from}{#if ref.num !== '0'}, {ref.num}{/if}
+            </p>
+          {/each}
+        </div>
+      {/if}
     </div>
   </div>
 </div>
