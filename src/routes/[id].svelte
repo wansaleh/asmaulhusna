@@ -28,8 +28,6 @@
   export let quranRefs: QuranRef[];
   export let prev: Name | null;
   export let next: Name | null;
-
-  console.log(quranRefs);
 </script>
 
 <Seo
