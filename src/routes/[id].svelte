@@ -90,7 +90,9 @@
 
     <div class="md:text-left md:w-2/3 md:py-8 p-8 py-0 w-full text-center">
       <p class="mb-10 text-xl italic font-normal">{name.desc_ms}</p>
-      <p class="text-xl font-normal opacity-60">{name.desc_en}</p>
+      <p class="text-xl font-normal opacity-60">
+        {name.desc_en}
+      </p>
       {#if quranRefs}
         <div class="text-sm font-normal mt-10">
           <b>Mentioned in:</b>
