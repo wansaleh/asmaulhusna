@@ -98,7 +98,13 @@
           <b>Mentioned in:</b>
           {#each quranRefs as ref}
             <p>
-              {@html ref.from}{#if ref.num !== '0'}, {ref.num}{/if}
+              <a
+                href="https://quran.com/{ref.num}"
+                rel="external"
+                class="hover:underline decoration-slate-500 decoration-2"
+              >
+                {@html ref.from}{#if ref.num !== '0'}, {ref.num}{/if}
+              </a>
             </p>
           {/each}
         </div>
